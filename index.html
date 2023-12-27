@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD con Tarjetas</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <header>
+    <h1>CRUD con Tarjetas</h1>
+  </header>
+
+  
+
+    <main class="container">
+    
+    <section class="crud">
+
+  <div id="app" class="app">
+    
+    <div class="form_total">
+        <div class="form_entrada">
+        <form id="cardForm" class="crud_form">
+            <input type="text" placeholder="Título tarea" id="cardContent" class="form_input">
+            <input type="text" placeholder="Descripción tarea" id="cardContent2" class="form_input">
+            <input type="date" id="fechavence" name="trip-start" class="date_tam"/>
+            <select id="estado" name="userestado" class="combo">
+                <option value="Ingresado">Ingresado</option>
+                <option value="Programado">Programado</option>
+                <option value="Cerrado">Cerrado</option>
+              </select>
+              <!--  <button type="submit" class="button button--primary" onclick="addCard()">Agregar Tarjeta</button> -->
+            <button type="submit" id="submitbutton" class="button button--primary" >Agregar</button>
+        </form>
+
+        </div>
+
+    </div>
+    <div id="card_contar" class="card_contar"></div>
+    <div id="cardContainer" class="cardContainer"></div>
+  </div>
+  
+  <script src="app.js"></script>
+
+</section>
+</main>
+
+<footer>
+  <h1 class="txt-small">Página del Proyecto 2 CRUD - DWFS C11 UDD © 2024. Todos los derechos reservados.</h1>
+</footer>
+
+</body>
+</html>
+

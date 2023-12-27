@@ -1,0 +1,245 @@
+
+/* fuente importada de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/* Se reinician los espacios que se agregan por defecto, quedan en 0 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+footer {
+    background-color: #d8bb18;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+  }
+
+  .txt-small{
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2em;
+    
+  }
+
+
+
+/* todo texto tendrá la fuente Montserrat, botones, entradas de texto, body, etc. */
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* La clase container estará centrada, que es el contenedor "padre" de todo el formulario */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+
+
+}
+
+.crud_title {
+    text-align: center;
+    color: rgb(100, 100, 114);
+}
+
+.crud_form{
+    display: inline-block;
+    /* margin: 10px 0; */
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.combo,.date_tam {
+    margin: 10px;
+    width: auto;
+    height: 33px;
+}
+
+/* Tamaño de fuente de las entradas a 1rem unidad relativa, equivale al tamaño por defecto del navegador, 2rem = 18px * 2  */
+.form_input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+/* Estilos al botón "padre" o en general  */
+.button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    align-items: center;
+
+    display: inline-block;
+    margin: 5px; /* Puedes ajustar el margen según tus preferencias */
+
+}
+
+
+
+/* efecto al pasar el mouse sobre el botón, crece 1.2  */
+.button:hover{
+    transform: scale(1.2);
+}
+
+.div_botones{
+    display: flex;
+    justify-content: center; /* Alineación horizontal al centro */
+    background-color: rgb(57, 142, 175);
+    position: absolute;
+    bottom: 0; /* Alinea el borde inferior del div interno con el borde inferior del contenedor externo */
+    right: 0;
+    left: 0;
+    
+}
+
+
+.titulo1 {
+    font-size: 1.5rem;
+    
+}
+
+.titulo2 {
+    font-size: 1rem;
+}
+
+.titulo3 {
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 40px;
+    
+}
+
+.card {
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+    overflow:hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.card:hover {
+    box-shadow: 15px 15px 40px rgba(139,13, 217,0.4);
+    transform: translateY(-3%);
+    transition: 0.5s;
+}
+
+.app{
+    margin: 10px;
+    
+}
+
+.crud_form{
+    display: flex;
+    justify-content: center; /* Alineación horizontal al centro */
+    align-items: center; /* Alineación vertical al centro */
+    background-color: rgb(238, 243, 245);
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;  
+
+}
+
+/* Estilos especificos a "botón "primary" pero conserva propiedades del botón general "padre" */
+.button--primary {
+    background-color: aquamarine;
+}
+
+/* Estilos especificos a "botón "secundary" que se crean automaticamente en la celda "acciones"*/
+.button--secundary {
+    background-color: #ffc107;
+}
+
+/* Estilos especificos a "botón "terciary" que se crean automaticamente en la celda "acciones"*/
+.button--terciary {
+    background-color: #dc3545;
+    color: #f0f0f0;
+}
+
+
+
+.card {
+      border: 1px solid #913030;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      display: inline-block;
+     
+}
+
+.Ingresado{
+ background-color: aqua;       
+}
+
+.Programado{
+    background-color: rgb(74, 255, 83);       
+}
+
+.Cerrado{
+    background-color: rgb(247, 231, 17);       
+}
+
+.fecha_vence2{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 14px;
+}
+
+.vencido{
+    color: #ff3a3a;
+    border-color: aqua;
+    border-radius: 5%;
+    background-color: #f0f0f0;
+}
+
+.vence{
+    color:blue;
+}
+
+.card_contar{
+    padding: 15px;
+}
+
+
+@media (max-width: 850px) {
+    .crud_form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: flex-start; /* Alinea verticalmente hacia arriba (parte superior) */
+        padding-top: 10px;
+        margin-left: 0;
+        
+    }
+
+    h1 {
+          font-size: 1.5em;
+    }
+    
+    .txt-small{
+        font-size: 1em;
+      }
+    
+
+}

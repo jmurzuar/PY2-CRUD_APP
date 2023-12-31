@@ -41,6 +41,8 @@ body, button, input {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 /* La clase container estará centrada, que es el contenedor "padre" de todo el formulario */
 .container {
     max-width: 1200px;
@@ -215,15 +217,15 @@ body, button, input {
 
 .vencido{
     color: #ffffff;
-    border-color: aqua;
-    border-radius: 5%;
+    border-color: #ff1d1d;
+    border-radius: 10px;
     background-color: #ff1d1d;
 }
 
 .vence{
     color:blue;
     border-color: aqua;
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: #00fc37;
 }
 
@@ -231,6 +233,8 @@ body, button, input {
 .card_contar{
     padding: 15px;
 }
+
+
 
 
 @media (max-width: 850px) {

@@ -47,7 +47,6 @@ function loadFromLocalStorage() {
       //console.log("El navegador no es compatible con localStorage.");
     }
 
-
   }
 
   
@@ -123,8 +122,9 @@ form.addEventListener('submit', function(event){
         contar_registros();
                
         
-          
+
     }else{
+    
     alert ('Favor llenar todos los campos');
 
     }
@@ -137,6 +137,7 @@ form.addEventListener('submit', function(event){
 
 
 function deleteCard(id) {
+
   cards = cards.filter(card => card.id !== id);
   sortCardsByTimestamp(); // Ordenar las tarjetas después de eliminar
   renderCards();
@@ -194,7 +195,7 @@ function renderCards() {
       <p class="titulo1">${card.content}</p>
       <p class="titulo2">${card.content2}</p>
       <br>
-      <p class="fecha_vence2 ${fechas}">${fechas} ${card.fecha}</p><br>${imagen_estado}
+      <p class="fecha_vence2 ${fechas}">&nbsp;${fechas} ${card.fecha}&nbsp;</p><br>${imagen_estado}
       <p class="titulo3">${card.timestamp}<br>${card.estado}</p>
       <br>
       <br>
@@ -210,6 +211,9 @@ function renderCards() {
 
 function editCard(id) {
     // Buscar la tarjeta con el ID específico
+
+    
+
     const cardToEdit = cards.find(card => card.id === id);
   
     // Verificar si la tarjeta existe
@@ -239,12 +243,14 @@ function editCard(id) {
       renderCards();
       saveToLocalStorage();
       contar_registros();
+
     }
   }
 
-  
+
 
 // Llamar a la función para cargar datos al iniciar
+
 loadFromLocalStorage();
 carga_fecha_combo();
 contar_registros();

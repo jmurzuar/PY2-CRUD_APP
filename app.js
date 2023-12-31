@@ -169,10 +169,22 @@ function renderCards() {
     hoy.setHours(0, 0, 0, 0);
     hoy.setDate(hoy.getDate() - 1);
 
-    if (cardFecha>=hoy){
+    if (cardFecha>=hoy && card.estado!='Cerrado'){
       fechas = 'vence';
-    }else{
+    } else if (cardFecha<hoy && card.estado!='Cerrado'){
       fechas = 'vencido';
+    }
+    else{
+      fechas = '';
+    }
+
+    if (card.estado=='Ingresado'){
+      imagen_estado = '<img class="logo_estado" src="images/ingresado.png" width="25" height="20">';
+    }else if (card.estado=='Cerrado'){
+      imagen_estado = '<img class="logo_estado" src="images/cerrado.png" width="15" height="20">';
+    }
+    else{
+      imagen_estado = '<img class="logo_estado" src="images/calen.png" width="20" height="20">';
     }
     
     const cardElement = document.createElement('div');
@@ -182,8 +194,8 @@ function renderCards() {
       <p class="titulo1">${card.content}</p>
       <p class="titulo2">${card.content2}</p>
       <br>
-      <p class="fecha_vence2 ${fechas}">${fechas}: ${card.fecha}</p>
-      <p class="titulo3">${card.timestamp}</p>
+      <p class="fecha_vence2 ${fechas}">${fechas} ${card.fecha}</p><br>${imagen_estado}
+      <p class="titulo3">${card.timestamp}<br>${card.estado}</p>
       <br>
       <br>
       <div class="div_botones">

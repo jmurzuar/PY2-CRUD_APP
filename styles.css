@@ -206,16 +206,27 @@ body, button, input {
     font-size: 14px;
 }
 
+.logo_estado{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 14px;
+}
+
 .vencido{
-    color: #ff3a3a;
+    color: #ffffff;
     border-color: aqua;
     border-radius: 5%;
-    background-color: #f0f0f0;
+    background-color: #ff1d1d;
 }
 
 .vence{
     color:blue;
+    border-color: aqua;
+    border-radius: 5%;
+    background-color: #00fc37;
 }
+
 
 .card_contar{
     padding: 15px;

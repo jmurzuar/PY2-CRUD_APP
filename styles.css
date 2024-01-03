@@ -1,9 +1,9 @@
-
 /* fuente importada de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
 
 /* Se reinician los espacios que se agregan por defecto, quedan en 0 */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,30 +14,38 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
-  }
+}
 
 footer {
     background-color: #d8bb18;
     color: #fff;
     padding: 2px;
     text-align: center;
-  }
+}
 
-  .txt-small{
+.txt-small {
     font-size: 1em;
     text-decoration: none;
-  }
+}
 
-  h1 {
+h1 {
     margin: 0;
-    font-size: 2em;
-    
-  }
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+.título_principal {
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 
 
 /* todo texto tendrá la fuente Montserrat, botones, entradas de texto, body, etc. */
-body, button, input {
+body,
+button,
+input {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,32 +62,36 @@ body, button, input {
 
 }
 
-.crud_title {
+/* .crud_title {
     text-align: center;
     color: rgb(100, 100, 114);
-}
+} */
 
-.crud_form{
+/* .crud_form{
     display: inline-block;
-    /* margin: 10px 0; */
+    margin: 10px 0;
     padding-left: 10px;
     padding-right: 10px;
     
-}
+} */
 
-.combo,.date_tam {
-    margin: 10px;
-    width: auto;
+.combo,
+.date_tam {
+    /* margin: 10px; */
+    width: 100%;
     height: 33px;
 }
 
 /* Tamaño de fuente de las entradas a 1rem unidad relativa, equivale al tamaño por defecto del navegador, 2rem = 18px * 2  */
 .form_input {
-    flex: 1;
+    /* flex: 1; */
     padding: 5px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     font-size: 1rem;
+    width: 100%;
 }
+
+
 
 /* Estilos al botón "padre" o en general  */
 .button {
@@ -87,35 +99,37 @@ body, button, input {
     border: none;
     border-radius: 5px;
     font-weight: 700;
-    align-items: center;
-
     display: inline-block;
-    margin: 5px; /* Puedes ajustar el margen según tus preferencias */
+    background-color: #7fffd4;
+    width: 100px;
+    height: 50px;
 
 }
 
 
 
 /* efecto al pasar el mouse sobre el botón, crece 1.2  */
-.button:hover{
-    transform: scale(1.2);
+.button:hover {
+    transform: scale(1.1);
 }
 
-.div_botones{
+.div_botones {
     display: flex;
-    justify-content: center; /* Alineación horizontal al centro */
+    justify-content: center;
+    /* Alineación horizontal al centro */
     background-color: rgb(57, 142, 175);
     position: absolute;
-    bottom: 0; /* Alinea el borde inferior del div interno con el borde inferior del contenedor externo */
+    bottom: 0;
+    /* Alinea el borde inferior del div interno con el borde inferior del contenedor externo */
     right: 0;
     left: 0;
-    
+
 }
 
 
 .titulo1 {
     font-size: 1.5rem;
-    
+
 }
 
 .titulo2 {
@@ -126,135 +140,191 @@ body, button, input {
     font-size: 0.8rem;
     position: absolute;
     bottom: 40px;
-    
+
 }
 
 .card {
-    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
-    overflow:hidden;
+    border-radius: 10px;
+    /* Puedes ajustar el valor según tus preferencias */
+    overflow: hidden;
     cursor: pointer;
     position: relative;
 
 }
 
 .card:hover {
-    box-shadow: 15px 15px 40px rgba(139,13, 217,0.4);
-    transform: translateY(-3%);
+    box-shadow: 15px 15px 40px rgba(139, 13, 217, 0.4);
+    transform: translateY(-1%);
     transition: 0.5s;
 }
 
-.app{
+.app {
     margin: 10px;
-    
+
 }
 
-.crud_form{
+.crud_form {
     display: flex;
-    justify-content: center; /* Alineación horizontal al centro */
-    align-items: center; /* Alineación vertical al centro */
-    background-color: rgb(238, 243, 245);
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eef3f5;
+    padding: 12px;
 }
 
-.cardContainer{
+.cardContainer {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;  
+    flex-grow: 1;
 
 }
 
 /* Estilos especificos a "botón "primary" pero conserva propiedades del botón general "padre" */
-.button--primary {
-    background-color: aquamarine;
-}
+
 
 /* Estilos especificos a "botón "secundary" que se crean automaticamente en la celda "acciones"*/
+.button--secundary,
+.button--terciary {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    align-items: center;
+
+    display: inline-block;
+    margin: 5px;
+    /* Puedes ajustar el margen según tus preferencias */
+    background-color: #ffc107;
+}
+
 .button--secundary {
     background-color: #ffc107;
 }
 
 /* Estilos especificos a "botón "terciary" que se crean automaticamente en la celda "acciones"*/
 .button--terciary {
+
     background-color: #dc3545;
     color: #f0f0f0;
 }
 
+.button--secundary:hover,
+.button--terciary:hover {
+    transform: scale(1.1);
+}
 
 
 .card {
-      border: 1px solid #913030;
-      padding: 10px;
-      margin: 10px;
-      width: 200px;
-      display: inline-block;
-     
+    border: 1px solid #913030;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+
 }
 
-.Ingresado{
- background-color: aqua;       
+.Ingresado {
+    background-color: aqua;
 }
 
-.Programado{
-    background-color: rgb(74, 255, 83);       
+.Programado {
+    background-color: rgb(74, 255, 83);
 }
 
-.Cerrado{
-    background-color: rgb(247, 231, 17);       
+.Cerrado {
+    background-color: rgb(247, 231, 17);
 }
 
-.fecha_vence2{
+.fecha_vence2 {
     position: absolute;
     top: 8px;
     right: 8px;
     font-size: 14px;
 }
 
-.logo_estado{
+.logo_estado {
     position: absolute;
     top: 8px;
     left: 8px;
     font-size: 14px;
 }
 
-.vencido{
+.vencido {
     color: #ffffff;
     border-color: #ff1d1d;
     border-radius: 10px;
     background-color: #ff1d1d;
 }
 
-.vence{
-    color:blue;
+.vence {
+    color: blue;
     border-color: aqua;
     border-radius: 10px;
     background-color: #00fc37;
 }
 
 
-.card_contar{
-    padding: 15px;
+.card_contar {
+    /* padding: 15px; */
+    margin-top: 10px;
+    color: blue;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #a6f73d;
+    border-radius: 10px;
+    font-weight:normal;
+}
+
+
+
+.bloque1 {
+    flex: 30%;
+    background-color: #f7e8e8;
+}
+
+.bloque2 {
+    flex: 10%;
+    background-color: #f7e8e8;
 }
 
 
 
 
-@media (max-width: 850px) {
+
+@media (max-width: 1000px) {
     .crud_form {
         display: flex;
         flex-wrap: wrap;
         flex-grow: 1;
-        justify-content: flex-start; /* Alinea verticalmente hacia arriba (parte superior) */
+        justify-content: flex-start;
         padding-top: 10px;
         margin-left: 0;
-        
+
     }
 
-    h1 {
-          font-size: 1.5em;
+    .bloque1 {
+        flex: 45%;
     }
+
+    .bloque2 {
+        flex: 20%;
+
+    }
+
+    /* h1 {
+          font-size: 1.5em;
+    }  */
+
+    .txt-small {
+        font-size: 1rem;
+    }
+
+    .card_contar {
+        width: 100%;
+        font-size: 0.8rem;
+ 
     
-    .txt-small{
-        font-size: 1em;
-      }
-    
+
 
 }

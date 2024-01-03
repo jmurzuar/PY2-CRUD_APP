@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRUD con Tarjetas</title>
   <link rel="stylesheet" href="styles.css">
-  
+
 </head>
+
 <body>
 
   <header>
-    <h1>CRUD con Tarjetas - Lista de tareas</h1>
+    <h1 class="título_principal">CRUD con Tarjetas - Lista de tareas</h1>
   </header>
 
-  
 
-    <main class="container">
-    
+
+  <main class="container">
+
     <section class="crud">
 
-  <div id="app" class="app">
-    
-    <div class="form_total">
-        <div class="form_entrada">
-        <form id="cardForm" class="crud_form">
-            <input type="text" placeholder="Título tarea" id="cardContent" class="form_input">
-            <input type="text" placeholder="Descripción tarea" id="cardContent2" class="form_input">
-            <input type="date" id="fechavence" name="trip-start" class="date_tam"/>
-            <select id="estado" name="userestado" class="combo">
-                <option value="Ingresado">Ingresado</option>
-                <option value="Programado">Programado</option>
-                <option value="Cerrado">Cerrado</option>
-              </select>
-              <!--  <button type="submit" class="button button--primary" onclick="addCard()">Agregar Tarjeta</button> -->
-            <button type="submit" id="submitbutton" class="button button--primary" >Agregar</button>
-        </form>
+      <div id="app" class="app">
+
+        <div class="form_total">
+          <div class="form_entrada">
+            <form id="cardForm" class="crud_form">
+
+              <div class="bloque1">
+                <h1>Título tarea</h1>
+                <input type="text" id="cardContent" class="form_input" placeholder="Ingrese el título de la tarea">
+              </div>
+
+              <div class="bloque1">
+                <h1>Detalle tarea</h1>
+                <input type="text" placeholder="Descripción tarea" id="cardContent2" class="form_input">
+              </div>
+
+              <div class="bloque2">
+                <h1>Fecha entrega</h1>
+                <input type="date" id="fechavence" name="trip-start" class="date_tam" />
+              </div>
+              <div class="bloque2">
+                <h1>Estado</h1>
+                <select id="estado" name="userestado" class="combo">
+                  <option value="Ingresado">Ingresado</option>
+                  <option value="Programado">Programado</option>
+                  <option value="Cerrado">Cerrado</option>
+                </select>
+                <!--  <button type="submit" class="button button--primary" onclick="addCard()">Agregar Tarjeta</button> -->
+
+              </div>
+
+
+              <button type="submit" id="submitbutton" class="button">Grabar</button>
+
+
+            </form>
+
+          </div>
 
         </div>
+        <div id="card_contar" class="card_contar"></div>
+        <div id="cardContainer" class="cardContainer"></div>
+      </div>
 
-    </div>
-    <div id="card_contar" class="card_contar"></div>
-    <div id="cardContainer" class="cardContainer"></div>
-  </div>
-  
-  <script src="app.js"></script>
+      <script src="app.js"></script>
 
-</section>
-</main>
+    </section>
+  </main>
 
-<footer>
-  <h1 class="txt-small">Página del Proyecto 2 CRUD - DWFS C11 UDD © 2024. Todos los derechos reservados.</h1>
-</footer>
+  <footer>
+    <h1 class="txt-small">Página del Proyecto 2 CRUD - DWFS C11 UDD © 2024. Todos los derechos reservados.</h1>
+  </footer>
 
 
 
 </body>
-</html>
 
+</html>

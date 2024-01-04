@@ -34,10 +34,8 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 ****
 
 ## 3. Pantallas
-![pantalla1](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/c199114b-562b-4b64-b51e-e7a800ed515a)
-![pantalla2](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/a6ac07a8-01a9-4400-821c-b952497b69d1)
-![pantalla3](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/0c945321-9a40-453f-bcdc-4e52fa14602d)
-![pantalla4](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/b26bc1a3-57b8-4f65-8516-8ff50ebf9e90)
+![Pantalla](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/231c4863-5329-4cd2-ac25-80b8fea6e15e)
+![Responsive](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/9ab26c05-e7c6-4f05-ba25-ec278bc8c0b1)
 
 
 [volver al índice](#ÍNDICE)

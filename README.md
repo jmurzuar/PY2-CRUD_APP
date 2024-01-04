@@ -1,3 +1,5 @@
+![banner](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/d2a1342c-b03b-4381-8214-ae5d5b0faad9)
+
 # PROYECTO 2: Aplicación CRUD
 
 ## **ÍNDICE**
@@ -21,17 +23,23 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 
 ## 2. Estructura
 
-![estructura](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/707d98c0-4aa7-4a61-b64e-9351adf1189f)
+### Estructura general de la página
+![Esquema1](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/1d4ce7d7-55d2-4cb7-b143-7ae34e6cff7c)
+
+### Detalle de tarjeta
+![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
 
 
 [volver al índice](#ÍNDICE)
 ****
 
 ## 3. Pantallas
-![pantalla1](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/c199114b-562b-4b64-b51e-e7a800ed515a)
-![pantalla2](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/a6ac07a8-01a9-4400-821c-b952497b69d1)
-![pantalla3](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/0c945321-9a40-453f-bcdc-4e52fa14602d)
-![pantalla4](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/b26bc1a3-57b8-4f65-8516-8ff50ebf9e90)
+
+### Pantalla completa
+![Pantalla](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/231c4863-5329-4cd2-ac25-80b8fea6e15e)
+
+### Pantalla responsive
+![Responsive](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/9ab26c05-e7c6-4f05-ba25-ec278bc8c0b1)
 
 
 [volver al índice](#ÍNDICE)
@@ -39,7 +47,7 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 
 ## 4. Tecnologías Utilizadas
 
-![losgos_tec](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/f978afc9-5e20-4b70-9c1d-bc493cbcf056)
+![LogosPY2](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/5d54e0d3-1f04-4bc6-a398-39a322473b0d)
 
 
 El objetivo principal de este proyecto fue desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación.
@@ -93,6 +101,6 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 
 ## 7. Despliegue
 
-Link al proyecto publicado en netlify.com xxxxxxxxxx
+Link al proyecto publicado en netlify.com (https://py2-crud-juan-urzua.netlify.app/)
 
 [volver al índice](#ÍNDICE)

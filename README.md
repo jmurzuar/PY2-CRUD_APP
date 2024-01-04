@@ -1,4 +1,4 @@
-![](https://github.com/jmurzuar/PY2-CRUD_APP/tree/main/images/banner.png)
+![banner](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/d2a1342c-b03b-4381-8214-ae5d5b0faad9)
 
 # PROYECTO 2: Aplicación CRUD
 

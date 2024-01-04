@@ -34,7 +34,11 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 ****
 
 ## 3. Pantallas
+
+### Pantalla completa
 ![Pantalla](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/231c4863-5329-4cd2-ac25-80b8fea6e15e)
+
+### Pantalla responsive
 ![Responsive](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/9ab26c05-e7c6-4f05-ba25-ec278bc8c0b1)
 
 

@@ -69,13 +69,13 @@ function contar_registros() {
 
       // Mostrar el número de registros en la consola
       //console.log("Número de registros en 'cards': " + numRegistros);
-      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;Total registros: ' + numRegistros + ' (Cerrados: '+ numRegistrosFiltrados +', Progamados: '+ numRegistrosFiltrados2 + ', Ingresados: ' + numRegistrosFiltrados3 + ')</p>';
+      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;<strong>Total registros: ' + numRegistros + '</strong> (Cerrados: '+ numRegistrosFiltrados +', Progamados: '+ numRegistrosFiltrados2 + ', Ingresados: ' + numRegistrosFiltrados3 + ')</p>';
     } else {
-      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;&nbsp;&nbsp;No se encontraron registros</p>';
+      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;No se encontraron registros</p>';
       //console.log("No hay datos en 'cards' en localStorage.");
     }
   } else {
-    document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;&nbsp;&nbsp;El navegador no es compatible con localStorage</p>';
+    document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;El navegador no es compatible con localStorage</p>';
     //console.log("El navegador no es compatible con localStorage.");
   }
 

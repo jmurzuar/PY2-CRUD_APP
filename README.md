@@ -8,6 +8,7 @@
 * [4. Tecnologías Utilizadas](#4-Tecnologías-Utilizadas)
 * [5. Principales Características](#5-Principales-Características)
 * [6. Legal](#6-Legal)
+* [7. Despliegue](#7-Despliegue)
   
 ****
 
@@ -56,29 +57,28 @@ Aplicando:
 
 ## 5. Principales Características
 
-Usa esta lista se encuentran los requisitos mínimos del proyecto fueron:
+Usa esta lista para saber los requisitos mínimos del proyecto:
 
-### HTML - CSS
+### UI
 
-- [X] Realizado de manera individual
-- [X] Desarrollar prototipado simple.
-- [X] Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
-- [X] Aplicar tipos de selectores en CSS.
-- [X] Sección `Header`, `Jumbotron`, `footer`
-- [X] Sección de registro de usuario
-- [X] Sección artículos o catálogo
-- [X] Responsive Web Design (Vista en móviles con uso de media queries)
+- [X] Desarrollar prototipado simple, aplicando estándar HTML5 y selectores en CSS.
+- [X] Sección Header.
+- [X] Formulario para crear un elemento.
+- [X] Sección para leer todos los elementos.
+- [X] Sección para modificar la información de uno de los elementos.
+- [X] Sección para borrar un elemento seleccionado por el usuario.
 
-### GIT y GITHUB
+### JAVASCRIPT
+- [X] Persistir los datos y almacenarlos en window.localStorage.
+
+### CONTROL DE VERSIONES
 - [X] Utilizar GIT para en control de versiones.
 - [X] Crear un repositorio en GitHub y realizar mínimo 5 "commits" en tu repositorio.
-
-### Publicación y difusión 
 - [X] Crear una URL para compartir (GitHub Pages)
 - [X] Se crea archivo README con la descripción dentro del repositorio
 
 ### Fecha de entrega
-- [X] Entregado el Lunes 27.11.2023
+- [X] Entregado el Lunes 08.01.2024
 
 [volver al índice](#ÍNDICE)
 ****
@@ -87,6 +87,12 @@ Usa esta lista se encuentran los requisitos mínimos del proyecto fueron:
 
 - Esta página fur creada con fines educativos, NO COMERCIAL, contiene imagenes con derechos de autor que se han utilizado solo para ejemplos
 - Página creada en el marco del Bootcamp desarrollo web full stack, corte 11 de la Universidad de Desarrrollo - Chile
-- Creado en Noviembre 2023
+- Creado en Enero 2024
   
+[volver al índice](#ÍNDICE)
+
+## 7. Despliegue
+
+Link al proyecto publicado en netlify.com xxxxxxxxxx
+
 [volver al índice](#ÍNDICE)

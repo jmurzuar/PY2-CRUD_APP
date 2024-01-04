@@ -23,11 +23,10 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 
 ## 2. Estructura
 
-Estructura general de la página
+### Estructura general de la página
 ![Esquema1](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/1d4ce7d7-55d2-4cb7-b143-7ae34e6cff7c)
 
-Detalle de tarjeta
-
+### Detalle de tarjeta
 ![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
 
 

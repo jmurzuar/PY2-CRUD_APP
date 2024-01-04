@@ -23,8 +23,11 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 
 ## 2. Estructura
 
-![estructura](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/707d98c0-4aa7-4a61-b64e-9351adf1189f)
+Estructura general de la página
+![Esquema1](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/1d4ce7d7-55d2-4cb7-b143-7ae34e6cff7c)
 
+Detalle de tarjeta
+![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
 
 [volver al índice](#ÍNDICE)
 ****
@@ -41,7 +44,7 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 
 ## 4. Tecnologías Utilizadas
 
-![losgos_tec](https://github.com/jmurzuar/PY1-Landing-Venta/assets/84281899/f978afc9-5e20-4b70-9c1d-bc493cbcf056)
+![LogosPY2](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/5d54e0d3-1f04-4bc6-a398-39a322473b0d)
 
 
 El objetivo principal de este proyecto fue desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación.

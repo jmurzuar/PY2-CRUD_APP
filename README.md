@@ -99,6 +99,6 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 
 ## 7. Despliegue
 
-Link al proyecto publicado en netlify.com (https://py2-crud-juan-urzua.netlify.app/)https://py2-crud-juan-urzua.netlify.app/
+Link al proyecto publicado en netlify.com (https://py2-crud-juan-urzua.netlify.app/)
 
 [volver al índice](#ÍNDICE)

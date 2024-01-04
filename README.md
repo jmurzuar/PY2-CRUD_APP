@@ -1,3 +1,5 @@
+![](https://github.com/jmurzuar/PY2-CRUD_APP/tree/main/images/banner.png)
+
 # PROYECTO 2: Aplicación CRUD
 
 ## **ÍNDICE**

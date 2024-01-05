@@ -107,8 +107,6 @@ En el desarollo de este proyecto, se cumple con:
 - [X] Crear una URL para compartir (netlify)
 - [X] Se crea archivo README con la descripción dentro del repositorio
 
-### Fecha de entrega
-- [X] Entregado el Lunes 08.01.2024
 
 [volver al índice](#ÍNDICE)
 ****
@@ -120,6 +118,7 @@ En el desarollo de este proyecto, se cumple con:
 - Creado en Enero 2024
   
 [volver al índice](#ÍNDICE)
+****
 
 ## 7. Despliegue
 

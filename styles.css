@@ -328,19 +328,24 @@ input {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     h1 {
         font-size: 0.7em;
     } 
 
     .txt-small {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     .card_contar {
         width: 100%;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
  
+    }
+
+    .título_principal {
+        font-size: 1rem;
+        font-weight: bold;
     }
 }

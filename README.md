@@ -16,7 +16,18 @@
 
 ## 1. Intro
 
-Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde a una radio online 
+Conforme vamos aprendiendo, nos encontraremos con funciones comunes en el mundo de programación. Entre ellas están los procesos CRUD, operaciones que trabajan con datos para persistirlos en una base de datos.
+
+Es posible utilizarlos dentro de la interfaz de usuario para facilitar vista, búsqueda y modificación de información.
+
+Se suelen referir al acrónimo:
+
+C - Create ("Crear")
+R - Read ("Leer")
+U - Update ("Actualizar")
+D - Delete ("Borrar")
+
+Este proyecto desarrollado con HTML, CSS y JavaScript muestra un ejemplo de CRUD con tarjetas 
 
 [volver al índice](#ÍNDICE)
 ****
@@ -29,6 +40,13 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 ### Detalle de tarjeta
 ![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
 
+
+Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, el la cual se puede:
+
+- Crear tareas con el botón AGREGAR y los campos de texto especificando la tarea, descripción, fecha y estado
+- Leer las tareas, ubicadas en la parte inferior de la aplicación.
+- Modifcar la tareas, con el botón EDITAR
+- Borrar la tarea, con el botón de ELIMINAR
 
 [volver al índice](#ÍNDICE)
 ****
@@ -50,14 +68,13 @@ Sitio estático desarrollado en HTML5, CSS y responsive, el ejemplo corresponde 
 ![LogosPY2](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/5d54e0d3-1f04-4bc6-a398-39a322473b0d)
 
 
-El objetivo principal de este proyecto fue desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación.
+El objetivo principal de este proyecto fue desarrollar una aplicación CRUD, utilizando interfaz HTML, CSS y JavaScript
 
 Aplicando:
 
-- Prototipado simple (baja findelidad) que muestra el plan de desarrollo. utilizando diseños sensillos, que muestran la página que vas a construir.
+- Prototipado simple que muestra una aplicación CRUD con almacenamiento en window.localStorage.
 - Etiquetas estándar HTML5.
 - CSS, incluyendo técnicas Flexbox, CSS Grids y Responsive Web Design.
-- Se utiliza Bootstrap
 - Se realiza control de versiones con GIT y GITHUB
 
 [volver al índice](#ÍNDICE)
@@ -65,7 +82,7 @@ Aplicando:
 
 ## 5. Principales Características
 
-Usa esta lista para saber los requisitos mínimos del proyecto:
+En el desarollo de este proyecto, se cumple con:
 
 ### UI
 
@@ -78,11 +95,15 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 
 ### JAVASCRIPT
 - [X] Persistir los datos y almacenarlos en window.localStorage.
+- [X] Modificar elementos de HTML y CSS desde Javacript
+- [X] Realizar filtros y evalauciones de orden de elementos
+- [X] Validación de campos vacios y filtros de fechas
+- [X] Crear HTML, Clases desde JavaScript 
 
 ### CONTROL DE VERSIONES
 - [X] Utilizar GIT para en control de versiones.
 - [X] Crear un repositorio en GitHub y realizar mínimo 5 "commits" en tu repositorio.
-- [X] Crear una URL para compartir (GitHub Pages)
+- [X] Crear una URL para compartir (netlify)
 - [X] Se crea archivo README con la descripción dentro del repositorio
 
 ### Fecha de entrega

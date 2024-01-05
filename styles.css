@@ -326,5 +326,21 @@ input {
  
     }
 
+}
 
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 0.7em;
+    } 
+
+    .txt-small {
+        font-size: 0.7rem;
+    }
+
+    .card_contar {
+        width: 100%;
+        font-size: 0.6rem;
+ 
+    }
 }

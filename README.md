@@ -22,10 +22,10 @@ Es posible utilizarlos dentro de la interfaz de usuario para facilitar vista, b�
 
 Se suelen referir al acrónimo:
 
-C - Create ("Crear")
-R - Read ("Leer")
-U - Update ("Actualizar")
-D - Delete ("Borrar")
+- C - Create ("Crear")
+- R - Read ("Leer")
+- U - Update ("Actualizar")
+- D - Delete ("Borrar")
 
 Este proyecto desarrollado con HTML, CSS y JavaScript muestra un ejemplo de CRUD con tarjetas 
 
@@ -47,6 +47,7 @@ Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, e
 - Leer las tareas, ubicadas en la parte inferior de la aplicación.
 - Modifcar la tareas, con el botón EDITAR
 - Borrar la tarea, con el botón de ELIMINAR
+
 
 [volver al índice](#ÍNDICE)
 ****

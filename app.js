@@ -33,43 +33,43 @@ function contar_registros() {
       var cardsArray = JSON.parse(cardsData);
 
       // Obtener el número de registros en 'cards'
-        var numRegistros = cardsArray.length;
+      var numRegistros = cardsArray.length;
 
-        // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
-        var filtro = 'Cerrado'; // Ajusta esto según tus necesidades
-         var filtrados = cardsArray.filter(function(card) {
-          return card.estado === filtro;
-        });
+      // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
+      var filtro = 'Cerrado'; // Ajusta esto según tus necesidades
+      var filtrados = cardsArray.filter(function (card) {
+        return card.estado === filtro;
+      });
 
-  // Obtener el número de registros filtrados
-        var numRegistrosFiltrados = filtrados.length;
-
-             // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
-             var filtro2 = 'Programado'; // Ajusta esto según tus necesidades
-             var filtrados2 = cardsArray.filter(function(card2) {
-              return card2.estado === filtro2;
-            });
-    
       // Obtener el número de registros filtrados
-            var numRegistrosFiltrados2 = filtrados2.length;
-        
+      var numRegistrosFiltrados = filtrados.length;
 
-              // Obtener el número de registros filtrados
-        var numRegistrosFiltrados = filtrados.length;
+      // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
+      var filtro2 = 'Programado'; // Ajusta esto según tus necesidades
+      var filtrados2 = cardsArray.filter(function (card2) {
+        return card2.estado === filtro2;
+      });
 
-        // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
-        var filtro3 = 'Ingresado'; // Ajusta esto según tus necesidades
-        var filtrados3 = cardsArray.filter(function(card3) {
-         return card3.estado === filtro3;
-       });
+      // Obtener el número de registros filtrados
+      var numRegistrosFiltrados2 = filtrados2.length;
 
- // Obtener el número de registros filtrados
-       var numRegistrosFiltrados3 = filtrados3.length;
-   
+
+      // Obtener el número de registros filtrados
+      var numRegistrosFiltrados = filtrados.length;
+
+      // Filtrar elementos basados en algún criterio (por ejemplo, una propiedad llamada 'tipo' igual a 'someValue')
+      var filtro3 = 'Ingresado'; // Ajusta esto según tus necesidades
+      var filtrados3 = cardsArray.filter(function (card3) {
+        return card3.estado === filtro3;
+      });
+
+      // Obtener el número de registros filtrados
+      var numRegistrosFiltrados3 = filtrados3.length;
+
 
       // Mostrar el número de registros en la consola
       //console.log("Número de registros en 'cards': " + numRegistros);
-      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;<strong>Total registros: ' + numRegistros + '</strong> (Cerrados: '+ numRegistrosFiltrados +', Progamados: '+ numRegistrosFiltrados2 + ', Ingresados: ' + numRegistrosFiltrados3 + ')</p>';
+      document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;<strong>Total registros: ' + numRegistros + '</strong> (Cerrados: ' + numRegistrosFiltrados + ', Progamados: ' + numRegistrosFiltrados2 + ', Ingresados: ' + numRegistrosFiltrados3 + ')</p>';
     } else {
       document.getElementById('card_contar').innerHTML = '<p>&nbsp;&nbsp;No se encontraron registros</p>';
       //console.log("No hay datos en 'cards' en localStorage.");
@@ -111,8 +111,7 @@ function addCard() {
     sortCardsByTimestamp(); // Ordenar las tarjetas después de añadir una nueva
     renderCards();
     saveToLocalStorage(); // Guardar datos en localStorage
-    // document.getElementById('cardContent').value = '';
-    // document.getElementById('cardContent2').value = '';
+ 
     form.reset();
     carga_fecha_combo();
   }
@@ -151,8 +150,7 @@ form.addEventListener('submit', function (event) {
     sortCardsByTimestamp(); // Ordenar las tarjetas después de añadir una nueva
     renderCards();
     saveToLocalStorage(); // Guardar datos en localStorage
-    // document.getElementById('cardContent').value = '';
-    // document.getElementById('cardContent2').value = '';
+
     form.reset();
     carga_fecha_combo();
     contar_registros();
@@ -254,15 +252,7 @@ function editCard(id) {
 
   // Verificar si la tarjeta existe
   if (cardToEdit) {
-    // Pedir al usuario la nueva información
-    //const newContent = prompt('Editar Contenido:', cardToEdit.content);
-    //const newContent2 = prompt('Editar Contenido2:', cardToEdit.content2);
-
-    // Actualizar la tarjeta
-    //cardToEdit.content = newContent || cardToEdit.content;
-    //cardToEdit.content2 = newContent2 || cardToEdit.content2;
-    //console.log(cardToEdit.content)
-
+   
     document.getElementById('cardContent').value = cardToEdit.content;
     document.getElementById('cardContent2').value = cardToEdit.content2;
     document.getElementById('fechavence').value = cardToEdit.fecha;

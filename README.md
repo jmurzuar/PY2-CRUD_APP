@@ -27,7 +27,7 @@ Se suelen referir al acrónimo:
 - U - Update ("Actualizar")
 - D - Delete ("Borrar")
 
-Este proyecto desarrollado con HTML, CSS y JavaScript muestra un ejemplo de CRUD con tarjetas 
+Este proyecto fue desarrollado con HTML, CSS y JavaScript, el cual muestra un ejemplo de CRUD con tarjetas 
 
 [volver al índice](#ÍNDICE)
 ****
@@ -41,11 +41,12 @@ Este proyecto desarrollado con HTML, CSS y JavaScript muestra un ejemplo de CRUD
 ![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
 
 
-Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, el la cual se puede:
+Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, en la cual se puede:
 
 - Crear tareas con el botón AGREGAR y los campos de texto especificando la tarea, descripción, fecha y estado
-- Leer las tareas, ubicadas en la parte inferior de la aplicación.
-- Modifcar la tareas, con el botón EDITAR
+- Validar que los campos contengan datos
+- Leer las tareas, ubicadas en la parte central de la aplicación.
+- Modificar la tarea, con el botón EDITAR
 - Borrar la tarea, con el botón de ELIMINAR
 
 
@@ -97,7 +98,7 @@ En el desarollo de este proyecto, se cumple con:
 ### JAVASCRIPT
 - [X] Persistir los datos y almacenarlos en window.localStorage.
 - [X] Modificar elementos de HTML y CSS desde Javacript
-- [X] Realizar filtros y evalauciones de orden de elementos
+- [X] Realizar filtros y evaluaciones de orden de elementos
 - [X] Validación de campos vacios y filtros de fechas
 - [X] Crear HTML, Clases desde JavaScript 
 
